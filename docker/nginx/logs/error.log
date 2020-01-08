@@ -1,0 +1,17 @@
+2019/12/18 13:41:20 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:9
+2019/12/18 13:41:23 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:9
+2019/12/18 13:41:25 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:9
+2019/12/18 13:41:27 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:9
+2019/12/18 13:41:29 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:9
+2019/12/18 13:41:31 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:9
+2019/12/18 13:41:35 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:9
+2019/12/18 13:41:43 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:9
+2019/12/18 13:41:57 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:9
+2019/12/18 13:42:27 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:10
+2019/12/18 13:42:31 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:10
+2019/12/18 13:42:32 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:10
+2019/12/18 13:42:33 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:10
+2019/12/18 13:42:35 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:10
+2019/12/18 13:42:39 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:10
+2019/12/18 13:42:43 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:10
+2019/12/18 13:42:50 [emerg] 1#1: host not found in upstream "phpfpm-app" in /etc/nginx/conf.d/vhost.conf:10
