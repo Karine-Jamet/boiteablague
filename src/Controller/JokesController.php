@@ -82,10 +82,15 @@ class JokesController extends AbstractController
         foreach ($result as $joke) {
 
             $joke = [
+                'id' => $joke->getId(),
                 'text' => $joke->getText(),
-                'authorName' => $joke->getAuthor()->getName() . " " . $joke->getAuthor()->getFirstname(),
-                'authorId' => $joke->getAuthor()->getId(),
-                'date' => $joke->getDate()
+                'date' => $joke->getDate(),
+                'author' => [
+                    'name' => $joke->getAuthor()->getName(),
+                    'firstname' => $joke->getAuthor()->getFirstname(),
+                    'authorId' => $joke->getAuthor()->getId(),
+                    'mail' => $joke->getAuthor()->getMail()
+                ]
             ];
 
             array_push($jokes, $joke);
@@ -150,7 +155,7 @@ class JokesController extends AbstractController
 
         $count = $qb->getQuery()->getSingleScalarResult();
 
-        $random = rand(1, $count-1);
+        $random = rand(1, $count - 1);
 
         $joke = $this->getDoctrine()
             ->getRepository(Jokes::class)
